@@ -1,30 +1,23 @@
 # DS-5030-Project-1
 
-#Obtaining the Original Data
+Link:https://www.kaggle.com/datasets/andrewmvd/sp-500-stocks/data
 
-This project uses the S&P 500 Stocks Dataset
-Link:
-https://www.kaggle.com/datasets/andrewmvd/sp-500-stocks/data
+_**To Download and Use Original Data... 
+**_
 
-To Download and Use Data... 
+ 1. Go to the dataset page using the link above.
+ 2. Sign in or create a  Kaggle account
+ 3. Click the Download button to download the dataset as a .zip file.
+ 4. Extract the .zip file to access the included .csv data files.
+ 5. Load the files into your environment 
 
-Go to the dataset page using the link above.
-
-Sign in or create a  Kaggle account 
-
-Click the Download button to download the dataset as a .zip file.
-
-Extract the .zip file to access the included .csv data files.
-
-Load the files into your environment 
-
-Alternative Option: Download via Kaggle API
+**Alternative Option: Download via Kaggle API
+**
 
 If you have the Kaggle API installed and authenticated, run:
 
-kaggle datasets download -d andrewmvd/sp-500-stocks
-
+    kaggle datasets download -d andrewmvd/sp-500-stocks
 
 Then unzip the downloaded file:
 
-unzip sp-500-stocks.zip
+    unzip sp-500-stocks.zip
